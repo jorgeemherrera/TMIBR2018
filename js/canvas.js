@@ -12,8 +12,7 @@ function mouseIsOn(event) {
 }
 
 function mouseIsOut(event) {
-
-    content.style.transition = 'all 0.33s ease';
+    content.style.transition = 'all 2s ease-in-out';
     content.style.top = '0px';
     content.style.left = '0px';
 }
@@ -30,6 +29,12 @@ ctx.moveTo(100, 100);
 ctx.lineTo(125, 100);
 ctx.lineTo(112, 125);
 ctx.closePath();
+ctx.stroke();
+
+//Yellow Circle
+ctx.beginPath();
+ctx.strokeStyle = '#EDDD09';
+ctx.arc(200,90,10,0,2*Math.PI);
 ctx.stroke();
 
 ctx.beginPath();
@@ -78,4 +83,10 @@ ctx.strokeStyle = '#EEFF41';
 ctx.moveTo(1100, 250);
 ctx.lineTo(1125, 250);
 ctx.closePath();
+ctx.stroke();
+
+//Pink Circle
+ctx.beginPath();
+ctx.strokeStyle = '#EDDD09';
+ctx.arc(400,150,20,0,2*Math.PI);
 ctx.stroke();

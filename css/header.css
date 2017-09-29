@@ -1,21 +1,94 @@
 @import url("https://fonts.googleapis.com/css?family=Bungee|Montserrat:400,700");
-body { background-color: cadetblue; margin: 0; padding: 0; }
+body {
+  background-color: cadetblue;
+  margin: 0;
+  padding: 0; }
 
-header { margin: 0; width: 100%; height: 100%; _background-color: #263238; display: flex; justify-content: center; align-items: center; }
-header video#bgvid { position: fixed; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -100; -ms-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -webkit-transform: translateX(-50%) translateY(-50%); background: url("http://www.tecnomultimidia.com.br/landing-page/assets/videos/tmibr2018_video_replace.jpg") no-repeat; background-size: cover; transition: 1s opacity; }
-header #content { position: absolute; }
+header {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  _background-color: #263238;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  header .logo {
+    padding-top: 3em; }
+  header video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    background: url("http://www.tecnomultimidia.com.br/landing-page/assets/videos/tmibr2018_video_replace.jpg") no-repeat;
+    background-size: cover;
+    transition: 1s opacity; }
+  header #content {
+    position: absolute; }
+  header .arrow {
+    color: #FFFFFF;
+    font-size: 3em;
+    text-shadow: -3px 1px 5px rgba(36, 47, 62, 0.7);
+    display: inline-block;
+    width: 100%; }
 
-h1, h2 { font-family: "Bungee", cursive; position: relative; z-index: 1; letter-spacing: 0.1em; padding-bottom: 1em; color: #FFFFFF; text-shadow: -3px 1px 5px rgba(36, 47, 62, 0.7); }
+h1, h2 {
+  font-family: "Bungee", cursive;
+  position: relative;
+  z-index: 1;
+  letter-spacing: 0.1em;
+  padding-bottom: 1em;
+  color: #FFFFFF;
+  text-shadow: -3px 1px 5px rgba(36, 47, 62, 0.7); }
 
-h1 { font-size: 2.5em; }
+h1 {
+  font-size: 2.5em; }
 
-h2 { font-size: 1.5em; }
+h2 {
+  font-size: 1.5em; }
 
-.form { display: block; text-align: center; }
-.form form { position: relative; z-index: 3; display: inline-flex; margin-left: auto; margin-right: auto; padding: 4em; }
-.form form .header-form { border: none; }
-.form form .header-form__input { vertical-align: middle; width: 25em; color: #737373; border: none; padding: 1em; font-family: "Montserrat"; font-size: 1.2em; display: inline-block; border-radius: 2em 0em 0em 2em; box-shadow: 1px 2px 17px 0px rgba(48, 48, 48, 0.78); }
-.form form .header-form__button { border: none; background-color: #D5133C; padding: 1em 2em; cursor: pointer; color: #FFFFFF; font-size: 1.2em; font-weight: 700; border-radius: 0em 2em 2em 0em; font-family: "Montserrat"; transition: 0.3s ease-in; box-shadow: 3px 2px 17px 0px rgba(48, 48, 48, 0.78); }
-.form form .header-form__button:hover { background-color: #B40D31; }
+.form {
+  display: block;
+  text-align: center; }
+  .form form {
+    position: relative;
+    z-index: 3;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4em; }
+    .form form .header-form {
+      border: none; }
+    .form form .header-form__input {
+      vertical-align: middle;
+      width: 25em;
+      color: #737373;
+      border: none;
+      padding: 1em;
+      font-family: "Montserrat";
+      font-size: 1.2em;
+      display: inline-block;
+      border-radius: 2em 0em 0em 2em;
+      box-shadow: 1px 2px 17px 0px rgba(48, 48, 48, 0.78); }
+    .form form .header-form__button {
+      border: none;
+      background-color: #D5133C;
+      padding: 1em 2em;
+      cursor: pointer;
+      color: #FFFFFF;
+      font-size: 1.2em;
+      font-weight: 700;
+      border-radius: 0em 2em 2em 0em;
+      font-family: "Montserrat";
+      transition: 0.3s ease-in;
+      box-shadow: 3px 2px 17px 0px rgba(48, 48, 48, 0.78); }
+      .form form .header-form__button:hover {
+        background-color: #B40D31; }
 
 /*# sourceMappingURL=header.css.map */

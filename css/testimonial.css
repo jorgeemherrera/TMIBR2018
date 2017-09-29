@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee|Montserrat:400,700");
+section {
+  outline: 0;
+  border: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.testimonial {
+  background: #242424;
+  background: -webkit-linear-gradient(90deg, #c1252e, #243258);
+  background: -o-linear-gradient(90deg, #c1252e, #243258);
+  background: -moz-linear-gradient(90deg, #c1252e, #243258);
+  background: linear-gradient(90deg, #c1252e, #243258); }
+  .testimonial h1 {
+    font-size: 2em;
+    font-weight: bold; }
+
+.testimonial_main {
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+
+.testimonial_object--1 {
+  position: absolute;
+  top: 33px;
+  left: -30px;
+  width: 500px; }
+
+.testimonial_object--3 {
+  position: absolute;
+  opacity: 0.3;
+  -webkit-filter: blur(3px);
+  transform: rotate(-1deg); }
+
+.testimonial_layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px; }
+
+::-webkit-scrollbar-track {
+  background-color: #ececec; }
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(56, 89, 100, 0.4);
+  border: 2px solid #e3e7f0; }
+
+/*# sourceMappingURL=testimonial.css.map */

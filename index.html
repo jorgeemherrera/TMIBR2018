@@ -5,25 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/x-icon" href="http://www.tecnomultimidia.com.br/landing-page/assets/images/favicon_tmic.png"/>
     <link rel="stylesheet" href="css/maps.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/testimonial.css">
     <title>TecnoMultimídia InfoComm Brasil 2018</title>
   </head>
   <!-- Código para Landing -->
-  <script type='text/javascript' src='utils/js/jquery.js'></script>
-  <script type='text/javascript'>
-    $(document).ready(function(){
-      var src = $('#frameRegistro').attr("src");
-      var contacto = location.search.split('contacto_id=')[1];
-      if (contacto == undefined) contacto = "";
-      $('#frameRegistro').attr("src", src + "&contacto_id=" + contacto );
-    });
-  </script>
+  <!-- <script type='text/javascript' src='utils/js/jquery.js'></script>
+    <script type='text/javascript'>
+      $(document).ready(function(){
+        var src = $('#frameRegistro').attr("src");
+        var contacto = location.search.split('contacto_id=')[1];
+        if (contacto == undefined) contacto = "";
+        $('#frameRegistro').attr("src", src + "&contacto_id=" + contacto );
+      });
+    </script> -->
   <!-- Fin Código para Landing -->
   <!-- Código para Redireccion Adwords -->
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     addEventListener("message", receiveMessage, false);
     function receiveMessage(event){
     console.log(event);
@@ -33,7 +34,7 @@
     }
     console.log(datos);
     }
-  </script>
+    </script> -->
   <!-- Fin Código Redirección Adwords -->
   <body>
     <header class="video_back">
@@ -44,11 +45,11 @@
       </video>
       <!-- /Video -->
       <div class="container">
+        <img class="img-fluid mx-auto d-block logo" src="http://www.tecnomultimidia.com.br/assets/images/logo_tmicb2017.png" alt="Logotipo TecnoMultimía InfoComm Brasil 2018">
         <div class="">
           <div id="content">
-            <canvas id="canvas" width="1288" height="400"></canvas>
+            <canvas id="canvas" width="1920" height="400"></canvas>
           </div>
-          <img class="img-fluid mx-auto d-block" src="http://www.tecnomultimidia.com.br/assets/images/logo_tmicb2017.png" alt="Logotipo TecnoMultimía InfoComm Brasil 2018">
           <div class="form">
             <form class="header-form" action="" method="post">
               <input class="header-form__input" type="email" name="" placeholder="E-mail">
@@ -57,32 +58,37 @@
           </div>
           <h2 class="text-center">A FEIRA DE SISTEMAS DE ÁUDIO, VÍDEO, AUTOMAÇÃO RESIDENCIAL, <br> DIGITAL SIGNAGE E COMUNICAÇÕES UNIFICADAS</h2>
           <h1 class="text-center">Datas: 22, 23 e 24 de Maio de 2018</h1>
+          <i class="fa fa-chevron-down arrow" aria-hidden="true"></i>
         </div>
       </div>
     </header>
-
-
+    <section class="testimonial testimonial_main">
+        <div class="testimonial_object--1">
+          <iframe class="" width="100%" height="315" src="https://www.youtube.com/embed/jCbBak8fSOA?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="testimonial_object--3">
+          <img src="http://www.tecnomultimidia.com.br/images/images/recursos-home-tecnomultimedia/Banners/Banner_dss_tcmb2017.jpg" alt="">
+        </div>
+        <div class="testimonial_layer"></div>
+            <h1>5 RAZONES PARA ASISTIR</h1>
+    </section>
     <footer>
       <div id="map_container">
-      <!-- <div class="row">
-        <div class="col-sm-6 push-6">
-          <div class="card">
-            <div class="card-block">
-              <h3 class="card-title">Contato</h3>
-              <p class="card-text">Victor Alarcón, Ramal 76</p>
-              <a href="mailto:valarcon@tecnomultimidia.com.br"><strong>valarcon@tecnomultimidia.com.br</strong></a><br><br>
-              <a href="http://www.tecnomultimidia.com.br/contato.html" class="btn btn-danger">Contato</a>
+        <!-- <div class="row">
+          <div class="col-sm-6 push-6">
+            <div class="card">
+              <div class="card-block">
+                <h3 class="card-title">Contato</h3>
+                <p class="card-text">Victor Alarcón, Ramal 76</p>
+                <a href="mailto:valarcon@tecnomultimidia.com.br"><strong>valarcon@tecnomultimidia.com.br</strong></a><br><br>
+                <a href="http://www.tecnomultimidia.com.br/contato.html" class="btn btn-danger">Contato</a>
+              </div>
             </div>
           </div>
-        </div>
-      </div> -->
-
+          </div> -->
         <div id="map"></div>
       </div>
     </footer>
-
-
-
     <!-- Google Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -93,16 +99,16 @@
       ga('send', 'pageview');
     </script>
     <!-- Google Analytics END-->
+      <script src="js/testimonial.js" charset="utf-8"></script>
     <!--Maps-->
     <script src="js/maps.js" charset="utf-8"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuGkPSfBqtHc8DZFxaFnXQlUYZsF13F4Q&callback=initMap" async defer></script>
     <script src="js/canvas.js" charset="utf-8"></script>
     <!-- fontawesome -->
     <script src="https://use.fontawesome.com/55b73bf748.js"></script>
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/17933a7462.js"></script>
+    <!-- jQuery first, then Popper, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   </body>
 </html>
