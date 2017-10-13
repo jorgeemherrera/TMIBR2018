@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee|Montserrat:400,700");
+.tarjeta {
+  position: absolute;
+  z-index: 1000;
+  padding: 3em;
+  right: 0; }
+
+/*# sourceMappingURL=footer.css.map */
