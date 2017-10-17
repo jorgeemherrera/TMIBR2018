@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee|Montserrat:400,700");
+section.citas_express {
+  outline: 0;
+  border: none;
+  padding: 0em 2em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.citas_express {
+  background: #242424;
+  background: -webkit-linear-gradient(90deg, #2c3b55, #467088);
+  background: -o-linear-gradient(90deg, #2c3b55, #467088);
+  background: -moz-linear-gradient(90deg, #2c3b55, #467088);
+  background: linear-gradient(90deg, #2c3b55, #467088); }
+  .citas_express p {
+    font-family: "Montserrat";
+    font-size: 1.2em;
+    color: #FFFFFF; }
+  .citas_express img {
+    margin: 0px 9em;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+    -moz-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+    -o-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%); }
+
+/*# sourceMappingURL=citas.express.css.map */

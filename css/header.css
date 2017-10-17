@@ -31,12 +31,13 @@ header {
     transition: 1s opacity; }
   header #content {
     position: absolute; }
-  header .arrow {
-    color: #FFFFFF;
-    font-size: 3em;
-    text-shadow: -3px 1px 5px rgba(36, 47, 62, 0.7);
-    display: inline-block;
-    width: 100%; }
+
+.arrow {
+  color: #FFFFFF;
+  font-size: 3em !important;
+  text-shadow: -3px 1px 5px rgba(36, 47, 62, 0.7);
+  display: inline-block;
+  width: 100%; }
 
 h1, h2 {
   font-family: "Bungee", cursive;

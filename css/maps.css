@@ -1,5 +1,11 @@
-#map_container { position: relative; }
+#map_container {
+  position: relative; }
 
-#map { height: 400px; overflow: hidden; padding-bottom: 22.25%; padding-top: 30px; position: relative; }
+#map {
+  height: 500px;
+  overflow: hidden;
+  padding-bottom: 22.25%;
+  padding-top: 30px;
+  position: relative; }
 
 /*# sourceMappingURL=maps.css.map */

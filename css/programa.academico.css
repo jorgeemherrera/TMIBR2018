@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee|Montserrat:400,700");
+section.programa_academico {
+  outline: 0;
+  border: none;
+  padding: 2em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.programa_academico {
+  background: #242424;
+  background: -webkit-linear-gradient(90deg, #ed3454, #f6ca15);
+  background: -o-linear-gradient(90deg, #ed3454, #f6ca15);
+  background: -moz-linear-gradient(90deg, #ed3454, #f6ca15);
+  background: linear-gradient(90deg, #ed3454, #f6ca15);
+  clip-path: polygon(18% 0, 100% 0%, 85% 100%, 0% 100%);
+  -webkit-clip-path: polygon(18% 0, 100% 0%, 85% 100%, 0% 100%);
+  -moz-clip-path: polygon(18% 0, 100% 0%, 85% 100%, 0% 100%);
+  -o-clip-path: polygon(18% 0, 100% 0%, 85% 100%, 0% 100%); }
+  .programa_academico p {
+    color: #242424;
+    font-weight: 600;
+    font-size: 1.1em; }
+
+.avixa {
+  width: 25vw; }
+
+.right {
+  text-align: right; }
+
+/*# sourceMappingURL=programa.academico.css.map */

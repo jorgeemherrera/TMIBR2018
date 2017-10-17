@@ -2,7 +2,22 @@
 .tarjeta {
   position: absolute;
   z-index: 1000;
-  padding: 3em;
+  padding: 3.4em;
   right: 0; }
+  .tarjeta .card {
+    box-shadow: -6px 4px 20px 0px #212121; }
+  .tarjeta a.arrow {
+    position: absolute;
+    z-index: 1000; }
+
+ul.social_network {
+  display: flex;
+  margin: 0.2em -40px; }
+  ul.social_network li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0.2em; }
+    ul.social_network li img {
+      width: 3.5vw; }
 
 /*# sourceMappingURL=footer.css.map */

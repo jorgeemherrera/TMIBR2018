@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee|Montserrat:400,700");
+section.crs_dss {
+  outline: 0;
+  border: none;
+  padding: 2em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.crs_dss {
+  background: #242424;
+  background: -webkit-linear-gradient(60deg, #1A1A1A, #333, #1A1A1A);
+  background: -o-linear-gradient(60deg, #1A1A1A, #333, #1A1A1A);
+  background: -moz-linear-gradient(60deg, #1A1A1A, #333, #1A1A1A);
+  background: linear-gradient(60deg, #1A1A1A, #333, #1A1A1A); }
+  .crs_dss p {
+    color: #fff;
+    font-size: 1.1em; }
+
+.crs {
+  width: 22vw; }
+
+.dss {
+  width: 21vw; }
+
+.right {
+  text-align: right; }
+
+/*# sourceMappingURL=crs.dss.css.map */
