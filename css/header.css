@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Bungee|Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:700,900");
 body {
   background-color: cadetblue;
   margin: 0;
@@ -40,19 +41,25 @@ header {
   width: 100%; }
 
 h1, h2 {
-  font-family: "Bungee", cursive;
+  font-family: "Titillium Web", cursive;
   position: relative;
   z-index: 1;
   letter-spacing: 0.1em;
   padding-bottom: 1em;
   color: #FFFFFF;
-  text-shadow: -3px 1px 5px rgba(36, 47, 62, 0.7); }
+  text-shadow: -3px 1px 5px rgba(36, 47, 62, 0.7);
+  font-weight: 900;
+  line-height: 1em; }
 
 h1 {
-  font-size: 2.5em; }
+  font-size: 3em; }
 
 h2 {
-  font-size: 1.5em; }
+  font-size: 1.6em; }
+
+p {
+  font-family: "Montserrat";
+  color: #FFFFFF; }
 
 .form {
   display: block;

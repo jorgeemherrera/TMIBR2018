@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Bungee|Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:700,900");
 section {
   outline: 0;
   border: none;
@@ -15,9 +16,8 @@ section {
   background: -moz-linear-gradient(90deg, #c1252e, #243258);
   background: linear-gradient(90deg, #c1252e, #243258); }
   .testimonial h1 {
-    font-size: 3em;
-    font-weight: bold;
-    padding: 5em 1em; }
+    font-size: 2.7em;
+    margin: 50% 0%; }
 
 .testimonial_main {
   height: 100vh;

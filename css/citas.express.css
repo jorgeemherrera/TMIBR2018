@@ -16,9 +16,7 @@ section.citas_express {
   background: -moz-linear-gradient(90deg, #2c3b55, #467088);
   background: linear-gradient(90deg, #2c3b55, #467088); }
   .citas_express p {
-    font-family: "Montserrat";
-    font-size: 1.2em;
-    color: #FFFFFF; }
+    font-size: 1.2em; }
   .citas_express img {
     margin: 0px 9em;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
