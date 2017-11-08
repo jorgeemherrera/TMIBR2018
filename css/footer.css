@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Bungee|Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:700,900");
 .tarjeta {
   position: absolute;
   z-index: 1000;
-  padding: 3.4em;
+  padding: 1em 3.4em;
   right: 0; }
   .tarjeta .card {
     box-shadow: -6px 4px 20px 0px #212121; }
@@ -12,12 +13,16 @@
 
 ul.social_network {
   display: flex;
-  margin: 0.2em -40px; }
+  margin: 0.7em -4px; }
   ul.social_network li {
     display: inline-block;
     list-style-type: none;
     padding: 0.2em; }
     ul.social_network li img {
       width: 3.5vw; }
+
+.foto_contacto {
+  width: 7vw;
+  margin-bottom: 0.5em; }
 
 /*# sourceMappingURL=footer.css.map */

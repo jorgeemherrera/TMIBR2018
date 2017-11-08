@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Bungee|Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:700,900");
 section.citas_express {
   outline: 0;
   border: none;
@@ -18,10 +19,10 @@ section.citas_express {
   .citas_express p {
     font-size: 1.2em; }
   .citas_express img {
-    margin: 0px 9em;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
-    -moz-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
-    -o-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%); }
+    margin: 0 4.3em;
+    clip-path: polygon(0 0, 88% 0, 100% 100%, 15% 100%);
+    -webkit-clip-path: polygon(0 0, 88% 0, 100% 100%, 15% 100%);
+    -moz-clip-path: polygon(0 0, 88% 0, 100% 100%, 15% 100%);
+    -o-clip-path: polygon(0 0, 88% 0, 100% 100%, 15% 100%); }
 
 /*# sourceMappingURL=citas.express.css.map */
