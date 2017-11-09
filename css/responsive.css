@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee|Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:700,900");
+/* - - - - - -  Media - 320 x 640 - - - - - - */
+@media (max-width: 320px) {
+  .form form {
+    padding: 1em 0 2em 0;
+    display: inline; }
+    .form form .header-form__input {
+      width: 17em;
+      margin: 1em 0em;
+      border: none;
+      padding: 0.8em;
+      font-family: "Montserrat";
+      font-size: 1.1em;
+      border-radius: 2em;
+      box-shadow: 1px 2px 17px 0px rgba(48, 48, 48, 0.78); }
+    .form form .header-form__button {
+      padding: 0.7em 3em;
+      border-radius: 2em;
+      margin: 0.5em; }
+
+  h1 {
+    font-size: 2em;
+    padding: 0.4em 0em; }
+
+  h2 {
+    font-size: 1.5em;
+    padding: 0em; }
+
+  .videoYoutube {
+    padding-bottom: 41.25%;
+    margin: 4em 1.5em; }
+
+  .testimonial h1 {
+    font-size: 2em;
+    margin: 0 0.5em; }
+
+  #testimonial .arrow {
+    margin: 0 41%; }
+
+  .citas_express p {
+    font-size: 1em;
+    line-height: 1.3em; }
+  .citas_express img {
+    margin: 1em 0em;
+    clip-path: polygon(0 0, 93% 0, 100% 100%, 7% 100%);
+    -webkit-clip-path: polygon(0 0, 93% 0, 100% 100%, 7% 100%);
+    -moz-clip-path: polygon(0 0, 93% 0, 100% 100%, 7% 100%);
+    -o-clip-path: polygon(0 0, 93% 0, 100% 100%, 7% 100%); }
+
+  .avixa {
+    width: 40vw; }
+
+  section.programa_academico {
+    padding: 0em 2em 1em;
+    clip-path: polygon(5% 0, 100% 0%, 93% 100%, 0% 100%);
+    -webkit-clip-path: polygon(5% 0, 100% 0%, 93% 100%, 0% 100%);
+    -moz-clip-path: polygon(5% 0, 100% 0%, 93% 100%, 0% 100%);
+    -o-clip-path: polygon(5% 0, 100% 0%, 93% 100%, 0% 100%); }
+    section.programa_academico p {
+      font-size: 1em;
+      line-height: 1.3em;
+      font-weight: 300;
+      text-align: left;
+      margin: 1em 0em; }
+    section.programa_academico h1.right {
+      margin: -0.4em; }
+  section.crs_dss {
+    padding: 1em; }
+    section.crs_dss .crs, section.crs_dss .dss {
+      width: 60vw; }
+
+  .tarjeta {
+    padding: 1em; }
+
+  .card {
+    width: 16.5em; }
+
+  .foto_contacto {
+    width: 30vw; }
+
+  h3.card-title {
+    font-size: 1.5em; }
+
+  ul.social_network {
+    margin: 1em -14px; }
+    ul.social_network li img {
+      width: 11vw; } }
+
+/*# sourceMappingURL=responsive.css.map */
