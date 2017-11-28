@@ -44,7 +44,7 @@ h1, h2 {
   font-family: "Titillium Web", cursive;
   position: relative;
   z-index: 1;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.07em;
   padding-bottom: 1em;
   color: #FFFFFF;
   text-shadow: -3px 1px 5px rgba(36, 47, 62, 0.7);
@@ -104,5 +104,13 @@ p {
   width: 100%;
   float: left;
   text-align: center; }
+
+ul.social_login li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0.5em;
+  margin: 0em 0.5em; }
+  ul.social_login li img {
+    width: 3.5vw; }
 
 /*# sourceMappingURL=header.css.map */

@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Bungee|Montserrat:400,700");
-/*@import url('https://fonts.googleapis.com/css?family=Passion+One:400,700') */
-@import url("https://fonts.googleapis.com/css?family=Signika:700");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:700,900");
 section.programa_academico {
   outline: 0;
   border: none;
@@ -17,10 +16,10 @@ section.programa_academico {
   background: -o-linear-gradient(90deg, #ed3454, #f6ca15);
   background: -moz-linear-gradient(90deg, #ed3454, #f6ca15);
   background: linear-gradient(90deg, #ed3454, #f6ca15);
-  clip-path: polygon(20% 0, 100% 0%, 82% 100%, 0% 100%);
-  -webkit-clip-path: polygon(20% 0, 100% 0%, 82% 100%, 0% 100%);
-  -moz-clip-path: polygon(20% 0, 100% 0%, 82% 100%, 0% 100%);
-  -o-clip-path: polygon(20% 0, 100% 0%, 82% 100%, 0% 100%); }
+  clip-path: polygon(19% 0, 100% 0%, 85% 100%, 0% 100%);
+  -webkit-clip-path: polygon(19% 0, 100% 0%, 85% 100%, 0% 100%);
+  -moz-clip-path: polygon(19% 0, 100% 0%, 85% 100%, 0% 100%);
+  -o-clip-path: polygon(19% 0, 100% 0%, 85% 100%, 0% 100%); }
   .programa_academico p {
     color: #242424;
     font-weight: 600;
@@ -31,5 +30,8 @@ section.programa_academico {
 
 .right {
   text-align: right; }
+
+.programa_academico-enlace {
+  color: #221c1c; }
 
 /*# sourceMappingURL=programa.academico.css.map */
