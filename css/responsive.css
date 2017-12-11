@@ -3,31 +3,28 @@
 /* - - - - - -  Media - 320 x 640 - - - - - - */
 @media screen and (min-width: 320px) {
   header .logo {
-    padding-top: 1.5em; }
+    padding-top: 0em; }
   header .form form {
-    padding: 1em 0 2em 0;
+    padding: 0em;
     display: inline; }
     header .form form .header-form__input {
-      width: 17em;
-      margin: 0.5em 0em;
-      border: none;
-      padding: 0.8em;
-      font-family: "Montserrat";
+      width: 18em;
+      margin: 1em auto;
+      padding: 1em;
       font-size: 1.1em;
-      border-radius: 2em;
-      box-shadow: 1px 2px 17px 0px rgba(48, 48, 48, 0.78); }
+      border-radius: 2em; }
     header .form form .header-form__button {
-      padding: 0.7em 3em;
-      border-radius: 2em;
-      margin: 0.5em; }
+      padding: 1em;
+      border-radius: 2em; }
 
   h1 {
-    font-size: 2em;
+    font-size: 1.6em;
     padding: 0em 0em; }
 
   h2 {
     font-size: 1.5em;
-    padding: 0em; }
+    padding: 0em;
+    margin: 0.5em auto; }
 
   .videoYoutube {
     padding-bottom: 50%;
@@ -36,6 +33,10 @@
   .testimonial h1 {
     font-size: 2em;
     margin: 0 0.5em; }
+
+  .testimonial_video, .testimonial_video_vinicius {
+    margin: 10% auto;
+    height: 180px; }
 
   #testimonial .arrow {
     margin: 0 41%; }
@@ -60,8 +61,8 @@
     -moz-clip-path: polygon(5% 0, 100% 0%, 93% 100%, 0% 100%);
     -o-clip-path: polygon(5% 0, 100% 0%, 93% 100%, 0% 100%); }
     section.programa_academico p {
-      font-size: 1.2em;
-      line-height: 1.3em;
+      font-size: 1.1em;
+      line-height: 1.2em;
       font-weight: 300;
       text-align: left;
       margin: 1em 0em; }
@@ -77,7 +78,7 @@
       padding: 0.2em; }
 
   .tarjeta {
-    padding: 3em 1em; }
+    padding: 1em; }
 
   .card {
     width: 19em;
@@ -89,46 +90,52 @@
   h3.card-title {
     font-size: 1.5em; }
 
-  ul.social_network {
-    margin: 1em -26px; }
-    ul.social_network li img {
+  ul.social_network, ul.social_login {
+    margin: 1em auto; }
+    ul.social_network li img, ul.social_login li img {
       width: 13vw; }
+  ul.testimonial_list {
+    font-size: 1.2em;
+    margin: 1em 0em; }
 
   #map {
     height: 568px; } }
 /* - - - - - -  Media - 360 x 640 - - - - - - */
 @media screen and (min-width: 360px) {
   header .logo {
-    padding-top: 0.5em; }
+    padding-top: 0em; }
   header .form form {
     padding: 1em 0 2em 0;
     display: inline; }
     header .form form .header-form__input {
-      width: 19em;
+      width: 20em;
       margin: 1em 0em;
-      padding: 0.8em;
+      padding: 1em;
       font-size: 1.1em;
       border-radius: 2em; }
     header .form form .header-form__button {
-      padding: 0.8em 4em;
+      padding: 1em;
       margin: 0.5em;
       border-radius: 2em; }
 
   h1 {
-    font-size: 2em;
+    font-size: 1.6em;
     padding: 0.4em 0em; }
 
   h2 {
     font-size: 1.5em;
-    padding: 0.8em 0em; }
+    padding: 0em; }
 
   .videoYoutube {
     padding-bottom: 41.25%;
     margin: 4em 1.5em; }
 
   .testimonial h1 {
-    font-size: 2.1em;
-    margin: 0 0.5em; }
+    font-size: 2em; }
+
+  .testimonial_video, .testimonial_video_vinicius {
+    margin: 10% auto;
+    height: 210px; }
 
   #testimonial .arrow {
     margin: 0 41%; }
@@ -171,10 +178,10 @@
       line-height: 1.3em; }
 
   .tarjeta {
-    padding: 4em 1.3em; }
+    padding: 0em 1em; }
 
   .card {
-    width: 18em; }
+    width: 22em; }
 
   .foto_contacto {
     width: 30vw; }
@@ -182,10 +189,13 @@
   h3.card-title {
     font-size: 1.5em; }
 
-  ul.social_network {
-    margin: 1em -26px; }
-    ul.social_network li img {
-      width: 13vw; }
+  ul.social_network, ul.social_login {
+    margin: 1em -9px; }
+    ul.social_network li img, ul.social_login li img {
+      width: 12vw; }
+  ul.testimonial_list {
+    font-size: 1.5em;
+    margin: 1em 0.5em; }
 
   #map {
     height: 640px; } }
@@ -197,23 +207,24 @@
     padding: 1em 0 2em 0;
     display: inline; }
     header .form form .header-form__input {
-      width: 19em;
+      width: 21em;
       margin: 1em 0em;
-      padding: 0.8em;
+      padding: 1em;
       font-size: 1.1em;
       border-radius: 2em; }
     header .form form .header-form__button {
-      padding: 0.8em 4em;
-      margin: 0.5em;
-      border-radius: 2em; }
+      padding: 1em;
+      margin: 0em;
+      border-radius: 2em;
+      width: 20em; }
 
   h1 {
-    font-size: 2em;
-    padding: 0.4em 0em; }
+    font-size: 1.5em;
+    padding: 0em 0em; }
 
   h2 {
     font-size: 1.5em;
-    padding: 0.8em 0em; }
+    padding: 0.5em 0em; }
 
   .videoYoutube {
     padding-bottom: 41.25%;
@@ -248,8 +259,8 @@
     -moz-clip-path: polygon(5% 0, 100% 0%, 93% 100%, 0% 100%);
     -o-clip-path: polygon(5% 0, 100% 0%, 93% 100%, 0% 100%); }
     section.programa_academico p {
-      font-size: 1.3em;
-      line-height: 1.3em;
+      font-size: 1.2em;
+      line-height: 1.2em;
       font-weight: 300;
       text-align: left;
       margin: 1em 0em; }
@@ -265,7 +276,7 @@
       padding: 1em; }
 
   .tarjeta {
-    padding: 5em 1em; }
+    padding: 1em; }
 
   .card {
     width: 22em;
@@ -286,37 +297,52 @@
     height: 667px; } }
 /* - - - - - -  Media - 412 x 732 - - - - - - */
 @media screen and (min-width: 412px) {
+  header .logo {
+    padding-top: 0em; }
   header .form form {
     padding: 1em 0 2em 0;
     display: inline; }
     header .form form .header-form__input {
-      width: 22em;
+      width: 21em;
+      margin: 1em 0em;
       padding: 1em;
-      font-size: 1.1em; }
+      font-size: 1.2em;
+      border-radius: 2em; }
     header .form form .header-form__button {
-      padding: 1em 6em;
-      font-size: 1.2em; }
+      padding: 1em;
+      margin: 0em;
+      border-radius: 2em;
+      width: 20em;
+      font-size: 1.3em; }
 
   h1 {
-    font-size: 2.3em; }
+    font-size: 1.5em;
+    padding: 0em 0em; }
 
   h2 {
-    font-size: 1.8em; }
+    font-size: 1.5em;
+    padding: 0.5em 0em; }
 
   .videoYoutube {
-    padding-bottom: 50%;
-    margin: 6em 0em; }
+    padding-bottom: 41.25%;
+    margin: 4em 1.5em; }
 
   .testimonial h1 {
-    font-size: 2.6em; }
+    font-size: 2.1em;
+    margin: 0 0.5em; }
+
+  .testimonial_video, .testimonial_video_vinicius {
+    margin: 10% auto;
+    height: 232px; }
 
   #testimonial .arrow {
     margin: 0 41%; }
 
   section.citas_express {
-    padding: 1em 2em; }
+    padding: 0em 2em; }
     section.citas_express p {
-      font-size: 1.5em; }
+      font-size: 1.3em;
+      line-height: 1.3em; }
     section.citas_express img {
       margin: 3em 0em;
       clip-path: polygon(0 0, 93% 0, 100% 100%, 7% 100%);
@@ -334,8 +360,11 @@
     -moz-clip-path: polygon(5% 0, 100% 0%, 93% 100%, 0% 100%);
     -o-clip-path: polygon(5% 0, 100% 0%, 93% 100%, 0% 100%); }
     section.programa_academico p {
-      font-size: 1.5em;
-      line-height: 1.2em; }
+      font-size: 1.2em;
+      line-height: 1.2em;
+      font-weight: 300;
+      text-align: left;
+      margin: 1em 0em; }
     section.programa_academico h1.right {
       margin: -0.4em; }
   section.crs_dss {
@@ -343,68 +372,81 @@
     section.crs_dss .crs, section.crs_dss .dss {
       width: 60vw; }
     section.crs_dss p {
-      font-size: 1.5em;
-      line-height: 1.2em;
-      padding: 0.5em; }
+      font-size: 1.2em;
+      line-height: 1.3em;
+      padding: 1em; }
 
   .tarjeta {
-    padding: 6em 0em; }
+    padding: 1em 1.5em; }
 
   .card {
-    width: 24em; }
+    width: 24em;
+    margin-top: 1em; }
 
   .foto_contacto {
-    width: 34vw; }
+    width: 30vw; }
 
   h3.card-title {
     font-size: 1.5em; }
 
-  h3.card-text {
-    font-size: 2.4em; }
-
   ul.social_network {
-    margin: 1em -23px; }
+    margin: 0em -10px; }
     ul.social_network li img {
-      width: 13vw; }
+      width: 12vw; }
 
   #map {
-    height: 732px; }
+    height: 667px; }
 
   .card-text a {
     font-size: 1.1em; } }
 /* - - - - - -  Media - 414 x 736 - - - - - - */
 @media screen and (min-width: 414px) {
+  header .logo {
+    padding-top: 0em; }
   header .form form {
     padding: 1em 0 2em 0;
     display: inline; }
     header .form form .header-form__input {
-      width: 22em;
+      width: 21em;
+      margin: 1em 0em;
       padding: 1em;
-      font-size: 1.1em; }
+      font-size: 1.2em;
+      border-radius: 2em; }
     header .form form .header-form__button {
-      padding: 1em 6em;
-      font-size: 1.2em; }
+      padding: 1em;
+      margin: 0em;
+      border-radius: 2em;
+      width: 20em;
+      font-size: 1.3em; }
 
   h1 {
-    font-size: 2.3em; }
+    font-size: 2em;
+    padding: 0em 0em; }
 
   h2 {
-    font-size: 1.8em; }
+    font-size: 1.5em;
+    padding: 0.5em 0em; }
 
   .videoYoutube {
-    padding-bottom: 50%;
+    padding-bottom: 41.25%;
     margin: 4em 1.5em; }
 
   .testimonial h1 {
-    font-size: 2.6em; }
+    font-size: 2.1em;
+    margin: 0 0.5em; }
+
+  .testimonial_video, .testimonial_video_vinicius {
+    margin: 10% auto;
+    height: 232px; }
 
   #testimonial .arrow {
     margin: 0 41%; }
 
   section.citas_express {
-    padding: 1em 2em; }
+    padding: 0em 2em; }
     section.citas_express p {
-      font-size: 1.5em; }
+      font-size: 1.3em;
+      line-height: 1.3em; }
     section.citas_express img {
       margin: 3em 0em;
       clip-path: polygon(0 0, 93% 0, 100% 100%, 7% 100%);
@@ -422,8 +464,11 @@
     -moz-clip-path: polygon(5% 0, 100% 0%, 93% 100%, 0% 100%);
     -o-clip-path: polygon(5% 0, 100% 0%, 93% 100%, 0% 100%); }
     section.programa_academico p {
-      font-size: 1.3em;
-      line-height: 1.2em; }
+      font-size: 1.2em;
+      line-height: 1.2em;
+      font-weight: 300;
+      text-align: left;
+      margin: 1em 0em; }
     section.programa_academico h1.right {
       margin: -0.4em; }
   section.crs_dss {
@@ -431,140 +476,136 @@
     section.crs_dss .crs, section.crs_dss .dss {
       width: 60vw; }
     section.crs_dss p {
-      font-size: 1.3em;
-      line-height: 1.2em; }
+      font-size: 1.2em;
+      line-height: 1.3em;
+      padding: 1em; }
 
   .tarjeta {
-    padding: 6em 1em; }
+    padding: 1em 2em; }
 
   .card {
-    width: 22em;
+    width: 24em;
     margin-top: 1em; }
 
   .foto_contacto {
-    width: 34vw; }
+    width: 30vw; }
 
   h3.card-title {
     font-size: 1.5em; }
 
-  h3.card-text {
-    font-size: 2.4em; }
-
   ul.social_network {
-    margin: 1em -35px; }
+    margin: 0em -10px; }
     ul.social_network li img {
-      width: 13vw; }
+      width: 12vw; }
 
   #map {
-    height: 732px; } }
-@media screen and (min-width: 768px) {
-  header .form form {
-    padding: 3em 0em; }
-    header .form form .header-form__input {
-      width: 32em;
-      padding: 1.5em;
-      font-size: 1.4em; }
-    header .form form .header-form__button {
-      font-size: 1.4em; }
-  header .logo {
-    padding-top: 0em; }
-  header img.logo {
-    width: 80vw; }
-  header .form {
-    display: block;
-    text-align: center; }
-    header .form form {
-      position: relative;
-      z-index: 3;
-      display: inline-flex;
-      margin-left: auto;
-      margin-right: auto; }
-      header .form form .header-form {
-        border: none; }
-      header .form form .header-form__input {
-        vertical-align: middle;
-        width: 26em;
-        color: #737373;
-        border: none;
-        padding: 1em;
-        margin: 0em;
-        font-family: "Montserrat";
-        font-size: 1.4em;
-        display: inline-block;
-        border-radius: 2em 0em 0em 2em;
-        box-shadow: 1px 2px 17px 0px rgba(48, 48, 48, 0.78); }
-      header .form form .header-form__button {
-        border: none;
-        background-color: #D5133C;
-        padding: 1em 2em;
-        margin: 0em;
-        cursor: pointer;
-        color: #FFFFFF;
-        font-size: 1.2em;
-        font-weight: 700;
-        border-radius: 0em 2em 2em 0em;
-        font-family: "Montserrat";
-        transition: 0.3s ease-in;
-        box-shadow: 3px 2px 17px 0px rgba(48, 48, 48, 0.78); }
-        header .form form .header-form__button:hover {
-          background-color: #B40D31; }
-
-  h1 {
-    font-size: 3.5em; }
-
-  h2 {
-    font-size: 2.5em; }
-
-  h3.card-text {
-    font-size: 2.8em; }
-
-  .videoYoutube iframe {
-    position: absolute;
-    height: 42vh;
-    width: 100vw; }
-
-  .testimonial h1 {
-    font-size: 4em;
-    width: 66vh; }
-
-  #testimonial .arrow {
-    margin: 0px 46%; }
-
-  section.citas_express {
-    padding: 5em 4em; }
-    section.citas_express img {
-      margin: 3em 5em -1em; }
-    section.citas_express p {
-      font-size: 1.8em;
-      padding-bottom: 1em; }
-  section.programa_academico {
-    padding: 4.7em 4em; }
-    section.programa_academico h1.right {
-      margin: 0.3em; }
-    section.programa_academico p {
-      font-size: 1.8em;
-      padding-bottom: 1em; }
-  section.crs_dss p {
-    font-size: 1.8em;
-    padding: 1em; }
-
-  .foto_contacto {
-    width: 21vw; }
-
-  .card {
-    width: 29em;
-    margin-top: 1em; }
+    height: 667px; }
 
   .card-text a {
-    font-size: 1.4em; }
+    font-size: 1.1em; } }
+@media screen and (min-width: 768px) {
+  header .logo {
+    padding-top: 0em; }
+  header .form form {
+    padding: 1em 0 2em 0;
+    display: inline; }
+    header .form form .header-form__input {
+      width: 21em;
+      margin: 1em 0em;
+      padding: 1em;
+      font-size: 1.2em;
+      border-radius: 2em; }
+    header .form form .header-form__button {
+      padding: 1em;
+      margin: 0em;
+      border-radius: 2em;
+      width: 20em;
+      font-size: 1.3em; }
+
+  h1 {
+    font-size: 2em;
+    padding: 0em 0em; }
+
+  h2 {
+    font-size: 1.5em;
+    padding: 0.5em 0em; }
+
+  .videoYoutube {
+    padding-bottom: 41.25%;
+    margin: 4em 1.5em; }
+
+  .testimonial h1 {
+    font-size: 2.1em;
+    margin: 0 0.5em; }
+
+  .testimonial_video, .testimonial_video_vinicius {
+    margin: 10% auto;
+    height: 432px; }
+
+  #testimonial .arrow {
+    margin: 0 41%; }
+
+  section.citas_express {
+    padding: 0em 2em; }
+    section.citas_express p {
+      font-size: 1.3em;
+      line-height: 1.3em; }
+    section.citas_express img {
+      margin: 3em 0em;
+      clip-path: polygon(0 0, 93% 0, 100% 100%, 7% 100%);
+      -webkit-clip-path: polygon(0 0, 93% 0, 100% 100%, 7% 100%);
+      -moz-clip-path: polygon(0 0, 93% 0, 100% 100%, 7% 100%);
+      -o-clip-path: polygon(0 0, 93% 0, 100% 100%, 7% 100%); }
+
+  .avixa {
+    width: 30vw; }
+
+  section.programa_academico {
+    padding: 1.3em 2em;
+    clip-path: polygon(5% 0, 100% 0%, 93% 100%, 0% 100%);
+    -webkit-clip-path: polygon(5% 0, 100% 0%, 93% 100%, 0% 100%);
+    -moz-clip-path: polygon(5% 0, 100% 0%, 93% 100%, 0% 100%);
+    -o-clip-path: polygon(5% 0, 100% 0%, 93% 100%, 0% 100%); }
+    section.programa_academico p {
+      font-size: 1.2em;
+      line-height: 1.2em;
+      font-weight: 300;
+      text-align: left;
+      margin: 1em 2em; }
+    section.programa_academico h1.right {
+      margin: 1em; }
+  section.crs_dss {
+    padding: 1em; }
+    section.crs_dss .crs, section.crs_dss .dss {
+      width: 32vw; }
+    section.crs_dss p {
+      font-size: 1.2em;
+      line-height: 1.3em;
+      padding: 1em; }
 
   .tarjeta {
-    padding: 5em 11em; }
+    padding: 8em 1em; }
 
-  ul.social_network {
-    margin: 1em -24px; }
-    ul.social_network li img {
-      width: 9vw; } }
+  .card {
+    width: 24em;
+    margin-top: 1em; }
+
+  .foto_contacto {
+    width: 20vw; }
+
+  h3.card-title {
+    font-size: 1.5em; }
+
+  ul.social_network, ul.social_login {
+    margin: 0em -10px; }
+    ul.social_network li img, ul.social_login li img {
+      width: 6vw; }
+
+  #map {
+    height: 667px; }
+
+  .card-text a {
+    font-size: 1.1em; } }
 /* - - - - - -  Media - 1024 x 1366 - - - - - - */
 @media screen and (min-width: 1024px) {
   header .form form {
@@ -642,6 +683,110 @@
 
   .card-text a {
     font-size: 1.4em; } }
+/* - - - - - -  Media - 1280 x 800 - - - - - - */
+@media screen and (min-width: 1280px) {
+  header .form form {
+    padding: 2em 0em; }
+    header .form form .header-form__input {
+      width: 25em;
+      padding: 1em;
+      font-size: 1.2em;
+      margin: 1em; }
+    header .form form .header-form__button {
+      font-size: 1.2em; }
+  header img.logo {
+    padding-top: 0em;
+    width: auto; }
+
+  .videoYoutube {
+    padding-bottom: 60%;
+    margin: 0 auto; }
+    .videoYoutube iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+
+  .testimonial_video {
+    margin: 37% auto;
+    height: 348px; }
+
+  .testimonial_video_vinicius {
+    height: 324px; }
+
+  .testimonial h1 {
+    font-size: 3.5em;
+    margin: 34% 0% 0%; }
+
+  h1 {
+    font-size: 3em; }
+
+  h2 {
+    font-size: 2.1em;
+    margin: 0; }
+
+  h3.card-text {
+    font-size: 2.5em; }
+
+  .card-text a {
+    font-size: 1.2em; }
+
+  #testimonial .arrow {
+    margin: 0 auto; }
+
+  .avixa {
+    margin: 32% 152px; }
+
+  section.programa_academico {
+    padding: 1em 0em;
+    clip-path: polygon(19% 0, 100% 0%, 85% 100%, 0% 100%);
+    -webkit-clip-path: polygon(19% 0, 100% 0%, 85% 100%, 0% 100%);
+    -moz-clip-path: polygon(19% 0, 100% 0%, 85% 100%, 0% 100%);
+    -o-clip-path: polygon(19% 0, 100% 0%, 85% 100%, 0% 100%); }
+    section.programa_academico p {
+      font-size: 1.2em; }
+  section.citas_express {
+    padding: 3em 3em 2em; }
+    section.citas_express img {
+      margin: 3em 1em; }
+      section.citas_express img.testimonio_logo {
+        margin: 0em 0em; }
+    section.citas_express p.testimonio {
+      font-size: 1.4em;
+      margin: 0em; }
+
+  section.crs_dss p {
+    font-size: 1.1em; }
+  section.crs_dss h2 {
+    font-size: 1.7em;
+    margin: 0;
+    letter-spacing: 0.15em; }
+
+  .programa_academico {
+    clip-path: polygon(19% 0, 100% 0%, 85% 100%, 0% 100%);
+    -webkit-clip-path: polygon(19% 0, 100% 0%, 85% 100%, 0% 100%);
+    -moz-clip-path: polygon(19% 0, 100% 0%, 85% 100%, 0% 100%);
+    -o-clip-path: polygon(19% 0, 100% 0%, 85% 100%, 0% 100%); }
+
+  .foto_contacto {
+    width: 9vw; }
+
+  .card {
+    width: 26em; }
+
+  .tarjeta {
+    padding: 2em 17em; }
+
+  #map {
+    height: 603px; }
+
+  ul.social_network {
+    margin: 0em auto; }
+    ul.social_network li img {
+      width: 4vw; }
+  ul.social_login li img {
+    width: 5vw; } }
 /* - - - - - -  Media - 1366 x 638 - - - - - - */
 @media screen and (min-width: 1366px) {
   header img.logo {
@@ -651,8 +796,9 @@
     padding: 1em 0em; }
     header .form form .header-form__input {
       width: 26em;
-      padding: 1.2em;
-      font-size: 1.2em; }
+      padding: 1em;
+      font-size: 1.2em;
+      margin: 1em; }
     header .form form .header-form__button {
       font-size: 1.2em; }
 
@@ -665,6 +811,13 @@
       left: 0;
       width: 100%;
       height: 100%; }
+
+  .testimonial_video {
+    margin: 17% 0;
+    height: 400px; }
+
+  .testimonial_video_vinicius {
+    height: 349px; }
 
   h1 {
     font-size: 2.1em; }
@@ -699,7 +852,7 @@
     -moz-clip-path: polygon(17% 0, 100% 0%, 85% 100%, 0% 100%);
     -o-clip-path: polygon(17% 0, 100% 0%, 85% 100%, 0% 100%); }
     section.programa_academico p {
-      font-size: 1.25em; }
+      font-size: 1.2em; }
 
   section.crs_dss p {
     font-size: 1.1em; }
@@ -711,6 +864,8 @@
     margin: 1em 20px; }
     ul.social_network li img {
       width: 3vw; }
+  ul.social_login li img {
+    width: 4vw; }
 
   .card {
     width: 25em; }
@@ -736,7 +891,8 @@
     header .form form .header-form__input {
       width: 25em;
       padding: 1em;
-      font-size: 1.2em; }
+      font-size: 1.2em;
+      margin: 1em; }
     header .form form .header-form__button {
       font-size: 1.2em; }
   header img.logo {
@@ -757,7 +913,11 @@
     font-size: 2.7em;
     margin: 34% 0% 0%; }
 
+  h1 {
+    font-size: 3.2em; }
+
   h2 {
+    font-size: 2.5em;
     margin: 0; }
 
   h3.card-text {
@@ -769,12 +929,15 @@
   #testimonial .arrow {
     margin: 0 auto; }
 
+  .avixa {
+    margin: 28% 135px; }
+
   section.programa_academico {
     padding: 1em 5em;
-    clip-path: polygon(20% 0, 100% 0%, 85% 100%, 0% 100%);
-    -webkit-clip-path: polygon(20% 0, 100% 0%, 85% 100%, 0% 100%);
-    -moz-clip-path: polygon(20% 0, 100% 0%, 85% 100%, 0% 100%);
-    -o-clip-path: polygon(20% 0, 100% 0%, 85% 100%, 0% 100%); }
+    clip-path: polygon(26% 0, 100% 0%, 82% 100%, 0% 100%);
+    -webkit-clip-path: polygon(26% 0, 100% 0%, 82% 100%, 0% 100%);
+    -moz-clip-path: polygon(26% 0, 100% 0%, 82% 100%, 0% 100%);
+    -o-clip-path: polygon(26% 0, 100% 0%, 82% 100%, 0% 100%); }
     section.programa_academico p {
       font-size: 1.2em; }
   section.citas_express {
@@ -816,15 +979,17 @@
     margin: 0em 18px; }
     ul.social_network li img {
       width: 3vw; }
-
-  /* - - - - - -  Media - 1920 x 950 - - - - - - */ }
+  ul.social_login li img {
+    width: 4vw; } }
+/* - - - - - -  Media - 1920 x 950 - - - - - - */
 @media screen and (min-width: 1920px) {
   header .form form {
     padding: 2em 0 2em 0; }
     header .form form .header-form__input {
       width: 32em;
       padding: 1.5em;
-      font-size: 1.5em; }
+      font-size: 1.5em;
+      margin: 1em; }
     header .form form .header-form__button {
       font-size: 1.5em; }
 
@@ -889,19 +1054,19 @@
     padding: 2em 0 2em 0; }
     header .form form .header-form__input {
       width: 38em;
-      padding: 1.4em;
+      padding: 1em;
       font-size: 2em; }
     header .form form .header-form__button {
       font-size: 2em; }
   header img.logo {
     padding-top: 0em;
-    width: 50%; }
+    width: 40%; }
 
   h1 {
     font-size: 4em; }
 
   h2 {
-    font-size: 4.5em; }
+    font-size: 3.7em; }
 
   .testimonial h1 {
     font-size: 6em;
@@ -909,6 +1074,10 @@
 
   iframe {
     height: 572px; }
+
+  .testimonial_video {
+    height: 594px;
+    margin: 50% auto; }
 
   section.citas_express p {
     font-size: 2.5em; }
@@ -925,7 +1094,7 @@
     -moz-clip-path: polygon(19% 0, 100% 0%, 83% 100%, 0% 100%);
     -o-clip-path: polygon(19% 0, 100% 0%, 83% 100%, 0% 100%); }
     section.programa_academico p {
-      font-size: 1.5em; }
+      font-size: 1.6em; }
 
   .avixa {
     width: 27vw;

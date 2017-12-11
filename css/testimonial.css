@@ -44,6 +44,9 @@ section {
   width: 100%;
   height: 100vh; }
 
+.testimonial_video {
+  margin: 25% auto; }
+
 ul.testimonial_list {
   list-style-type: none;
   font-size: 1.5em;
