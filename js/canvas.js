@@ -1,4 +1,5 @@
-
+//Smooth Animation | Author: Jorge Eliecer Munoz Herrera
+//Resource: Codepen
 var canvas = document.getElementById('canvas'),
     header = document.querySelector('header'),
     content = document.getElementById('content'),

@@ -1,4 +1,4 @@
-//Smooth Animation | Jorge Eliecer Munoz Herrera
+//Smooth Animation | Author: Jorge Eliecer Munoz Herrera
 //Resource: w3Schools
 $(document).ready(function(){
 	//Agregar smooth scrolling a todos los enlaces

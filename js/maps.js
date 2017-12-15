@@ -1,3 +1,5 @@
+//Smooth Animation | Author: Jorge Eliecer Munoz Herrera
+//Resource: Google Maps API
 var map;
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map'), {
