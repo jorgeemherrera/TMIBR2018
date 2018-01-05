@@ -1,2 +1,123 @@
-@import url("https://fonts.googleapis.com/css?family=Bungee|Montserrat:400,700");@import url("https://fonts.googleapis.com/css?family=Titillium+Web:700,900");body{background-color:#5f9ea0;margin:0;padding:0}header{margin:0;width:100vw;height:100vh;_background-color:#263238;display:flex;justify-content:center;align-items:center}header .logo{padding-top:3em}header video#bgvid{position:fixed;top:50%;left:50%;min-width:100%;min-height:100%;width:auto;height:auto;z-index:-100;-ms-transform:translateX(-50%) translateY(-50%);-moz-transform:translateX(-50%) translateY(-50%);-webkit-transform:translateX(-50%) translateY(-50%);background:url("http://www.tecnomultimidia.com.br/landing-page/assets/videos/tmibr2018_video_replace.jpg") no-repeat;background-size:cover;transition:1s opacity}header #content{position:absolute}.arrow{color:#fff;font-size:3em !important;text-shadow:-3px 1px 5px rgba(36,47,62,0.7);display:inline-block;width:100%;margin-top:1em}h1,h2{font-family:"Titillium Web",cursive;position:relative;z-index:1;letter-spacing:.07em;padding-bottom:1em;color:#fff;text-shadow:-3px 1px 5px rgba(36,47,62,0.7);font-weight:900;line-height:1em}h1{font-size:3em}h2{font-size:1.6em}p{font-family:"Montserrat";color:#fff}.form{display:block;text-align:center}.form form{position:relative;z-index:3;display:inline-flex;margin-left:auto;margin-right:auto;padding:4em}.form form .header-form{border:none}.form form .header-form__input{vertical-align:middle;width:25em;color:#737373;border:none;padding:1em;font-family:"Montserrat";font-size:1.2em;display:inline-block;border-radius:2em 0em 0em 2em;box-shadow:1px 2px 17px 0px rgba(48,48,48,0.78)}.form form .header-form__button{border:none;background-color:#D5133C;padding:1em 2em;cursor:pointer;color:#fff;font-size:1.2em;font-weight:700;border-radius:0em 2em 2em 0em;font-family:"Montserrat";transition:0.3s ease-in;box-shadow:3px 2px 17px 0px rgba(48,48,48,0.78)}.form form .header-form__button:hover{background-color:#B40D31}.slide{height:100vh;width:100%;float:left;text-align:center}ul.social_login li{display:inline-block;list-style-type:none;padding:.5em;margin:0em .5em}ul.social_login li img{width:3.5vw}
+@import url("https://fonts.googleapis.com/css?family=Bungee|Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:700,900");
+body {
+  background-color: cadetblue;
+  margin: 0;
+  padding: 0; }
+
+header {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  _background-color: #263238;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  header .logo {
+    padding-top: 3em; }
+  header video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    background: url("http://www.tecnomultimidia.com.br/landing-page/assets/videos/tmibr2018_video_replace.jpg") no-repeat;
+    background-size: cover;
+    transition: 1s opacity; }
+  header #content {
+    position: absolute; }
+
+iframe.frameRegistro {
+  border-radius: 0.5em;
+  border: none;
+  width: 585px !important;
+  height: 600px !important; }
+
+.arrow {
+  color: #FFFFFF;
+  font-size: 3em !important;
+  text-shadow: -3px 1px 5px rgba(36, 47, 62, 0.7);
+  display: inline-block;
+  width: 100%;
+  margin-top: 1em; }
+
+h1, h2 {
+  font-family: "Titillium Web", cursive;
+  position: relative;
+  z-index: 1;
+  letter-spacing: 0.07em;
+  padding-bottom: 1em;
+  color: #FFFFFF;
+  text-shadow: -3px 1px 5px rgba(36, 47, 62, 0.7);
+  font-weight: 700;
+  line-height: 1em; }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 1.6em; }
+
+p {
+  font-family: "Montserrat";
+  color: #FFFFFF; }
+
+.form {
+  display: block;
+  text-align: center; }
+  .form form {
+    position: relative;
+    z-index: 3;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4em; }
+    .form form .header-form {
+      border: none; }
+    .form form .header-form__input {
+      vertical-align: middle;
+      width: 25em;
+      color: #737373;
+      border: none;
+      padding: 1em;
+      font-family: "Montserrat";
+      font-size: 1.2em;
+      display: inline-block;
+      border-radius: 2em 0em 0em 2em;
+      box-shadow: 1px 2px 17px 0px rgba(48, 48, 48, 0.78); }
+    .form form .header-form__button {
+      border: none;
+      background-color: #D5133C;
+      padding: 1em 2em;
+      cursor: pointer;
+      color: #FFFFFF;
+      font-size: 1.2em;
+      font-weight: 700;
+      border-radius: 0em 2em 2em 0em;
+      font-family: "Montserrat";
+      transition: 0.3s ease-in;
+      box-shadow: 3px 2px 17px 0px rgba(48, 48, 48, 0.78); }
+      .form form .header-form__button:hover {
+        background-color: #B40D31; }
+
+.slide {
+  height: 100vh;
+  width: 100%;
+  float: left;
+  text-align: center; }
+
+ul.social_login li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0.5em;
+  margin: 0em 0.5em; }
+  ul.social_login li img {
+    width: 3.5vw; }
+
 /*# sourceMappingURL=header.css.map */
